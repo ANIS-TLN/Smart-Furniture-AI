@@ -1,0 +1,7 @@
+# Dépendances (trop lourd)
+node_modules/
+*/node_modules/
+
+# Sécurité (Clés API secrètes)
+.env
+.DS_Store

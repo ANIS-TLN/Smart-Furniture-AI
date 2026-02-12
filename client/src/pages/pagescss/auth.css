@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* --- Fond avec image de meubles --- */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* --- Carte avec effet glass (verre) --- */
+.auth-card {
+  background: rgba(255, 255, 255, 0.32);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 500px;
+  color: #fff;
+  animation: slide-up 0.6s ease;
+}
+
+/* --- Animation d’apparition --- */
+@keyframes slide-up {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* --- Titre principal --- */
+.auth-title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* --- Sous-titre --- */
+.auth-subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fceedd;
+}
+
+/* --- Champs de saisie --- */
+.auth-input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #3e2209;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.auth-input:focus {
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.3);
+}
+
+/* --- Erreurs de validation --- */
+.auth-error {
+  color: rgb(206, 2, 2);
+  font-size: 13px;
+  margin: 4px 0 8px 2px;
+}
+
+/* --- Mot de passe avec icône --- */
+.auth-password {
+  position: relative;
+}
+
+.auth-eye {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(212, 70, 70);
+  cursor: pointer;
+}
+
+
+.password-container {
+    position: relative;
+  }
+
+/* --- Bouton stylé --- */
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background-color: brown;
+  color: #fff8f0;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+.auth-button:hover {
+  background-color: rgb(212, 70, 70);
+}
+
+/* --- Footer avec lien vers inscription --- */
+.auth-footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: #fcf8f8;
+}
+
+.auth-link {
+  color: rgb(63, 21, 21);
+  font-weight: bold;
+  margin-left: 4px;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.auth-link:hover {
+  color: #fdf3e7;
+}
+
+.auth-error-global {
+  margin-bottom: 10px;
+  color: red;
+  font-weight: 500;
+  text-align: center;
+}
+
+.auth-error-message {
+  color: #d32f2f;
+  
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+

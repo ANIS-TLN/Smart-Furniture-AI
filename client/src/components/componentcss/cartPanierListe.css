@@ -1,0 +1,63 @@
+.containerrr {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.panier-vide-container {
+  height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centre verticalement */
+  align-items: center;     /* Centre horizontalement */
+  color: #888;
+  text-align: center;
+}
+
+.panier-vide-icon {
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.panier-vide-message {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.titre-panier {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.passer-commande-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.passer-commande-button:hover {
+  background-color: #0056b3;
+}
+
+
+.total-panier {
+  padding: 16px;
+  border-top: 2px solid #0f0f10;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+ 
+}

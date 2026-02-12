@@ -1,0 +1,26 @@
+.liste-produits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .no-produits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    color: #777;
+  }
+  
+  .no-produits-icon {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+  }
+  

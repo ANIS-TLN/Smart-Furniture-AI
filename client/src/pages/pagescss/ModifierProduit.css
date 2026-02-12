@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+.form-container {
+max-width: 1040px;
+margin: 50px auto;
+padding: 20px;
+background: rgba(255, 255, 255, 0.9);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+font-family: "Noto Sans Display", sans-serif;
+}
+
+.form-title {
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 15px;
+text-align: center;
+color: #000000;
+}
+
+.form-label {
+display: block;
+font-weight: 500;
+margin-bottom: 10px;
+text-align: left;
+}
+
+.inline-fields {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+}
+
+.image-preview-container {
+display: flex;
+align-items: center;
+column-gap: 10px;
+flex-wrap: wrap;
+}
+
+.image-wrapper {
+position: relative;
+width: 250px;
+height: 250px;
+margin-bottom: 20px;
+}
+
+.image-preview {
+width: 250px;
+height: 250px;
+object-fit: cover;
+border-radius: 5px;
+border: 1px solid #ddd;
+}
+
+.add-image-button {
+width: 250px;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px dashed #ccc;
+border-radius: 5px;
+font-size: 2rem;
+color: #777;
+cursor: pointer;
+transition: 0.3s;
+margin-bottom: 20px;
+}
+
+.add-image-button:hover {
+border-color: #96623d;
+color: #96623d;
+}
+
+.hidden-file-input {
+display: none;
+}
+
+.input-field {
+width: calc(100% - 20px);
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 10px;
+font-size: 1rem;
+background: #ffffff;
+}
+
+.input-field::placeholder {
+color: rgba(0, 0, 0, 0.5);
+}
+
+select.input-field {
+width: 100%;
+padding: 10px;
+font-size: 1rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+background: #ffffff;
+color: #000;
+cursor: pointer;
+}
+
+.dimensions-fieldset {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 15px;
+width: calc(100% - 22px);
+}
+
+.dimensions-fieldset legend {
+font-weight: bold;
+padding: 0 10px;
+}
+
+.small-input {
+flex: 1;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+text-align: center;
+font-size: 1rem;
+}
+
+.submit-button {
+width: 40%;
+background-color: brown;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+font-size: 1rem;
+cursor: pointer;
+transition: background 0.3s;
+margin-left: 30%;
+}
+
+.submit-button:hover {
+background-color: rgb(97, 48, 13);
+}
+
+.error-message {
+color: red;
+font-size: 0.9rem;
+margin-top: 5px;
+}
+
+.image-delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.image-delete-btn:hover {
+  background-color: rgba(200, 0, 0, 1);
+}

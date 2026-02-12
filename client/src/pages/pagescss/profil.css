@@ -1,0 +1,156 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fafafa;
+  margin: 0;
+  color: #333;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+.profil-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.profil-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  background: #eaeaea;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.profil-info h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.profil-info p {
+  color: #999;
+  font-size: 0.95rem;
+  margin: 5px 0;
+}
+
+.profil-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.profil-actions button {
+  background: #efefef;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.2rem;
+}
+
+.profil-actions button:hover {
+  background: #ddd;
+}
+
+.profil-form {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.profil-form input {
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.submit-btnn {
+  background-color: rgb(212, 70, 70);; /* vert */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px; /* plus petit que 12px 20px */
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: fit-content; /* réduit la largeur au contenu */
+  align-self: start;  /* aligné à gauche dans la grille */
+}
+
+.submit-btnn:hover {
+  background-color: rgb(196, 47, 47);; /* vert plus foncé au hover */
+}
+
+
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+}
+
+.message {
+  color: #27ae60;
+  font-size: 0.95rem;
+}
+
+.profil-heading {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  color: #111;
+  letter-spacing: -0.5px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 10px;
+  border-left: 4px solid #0066cc;
+  transition: all 0.3s ease-in-out;
+}
+
+.profil-heading:hover {
+  color: #0066cc;
+  border-left-color: #004a99;
+}
+
+.titre-produits {
+  margin: 40px 0 20px 0;
+  padding-left: 10px;
+  border-left: 4px solid brown;
+}
+
+.titre-produits h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.titre-produits h3 svg,
+.titre-produits h3 i {
+  color: brown;
+  font-size: 1.3rem;
+}
+.no-products {
+
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+
